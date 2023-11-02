@@ -19,7 +19,7 @@ from sklearn.base import BaseEstimator, TransformerMixin # для создани
 from sklearn.linear_model import SGDRegressor 
 
 
-from grafs.first import get_fisrt_dfgdfg
+from first import get_fisrt_dfgdfg
 from sheet.pipeline import num_pipes, cat_pipes
 
 def cat_and_nums(df): #Категориальные и числовые признаки
